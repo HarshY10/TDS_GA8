@@ -1,6 +1,6 @@
+pip install streamlit
 import streamlit as st
 
-st.title
 
 a = st.number_input("Enter first number ")
 b = st.number_input("Enter second number ")
