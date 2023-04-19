@@ -7,13 +7,15 @@ a = st.number_input("Enter first number ")
 b = st.number_input("Enter second number ")
 c = st.number_input("Enter third number ")
 
-if (a >= b) and (a >= c):
-	l = a
+if st.button("Click here to find the largest number "):
 
-elif (b >= a) and (b >= c):
-	l = b
+	if (a >= b) and (a >= c):
+		l = a
 
-elif (c >= a) and (c >= b):
-	l = c
+	elif (b >= a) and (b >= c):
+		l = b
 
-st.write("The largest number is ", l)
+	elif (c >= a) and (c >= b):
+		l = c
+
+	st.write("The largest number is ", l)
