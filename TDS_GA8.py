@@ -1,4 +1,4 @@
-pip install streamlit
+!pip install -q streamlit
 import streamlit as st
 
 
